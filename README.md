@@ -8,9 +8,14 @@
     ```
 
 ## Commands:
-- **Run the end-to-end tests:**
+- **Run the end-to-end tests (Runs in headless mode):**
     ```sh
     npx playwright test
+    ```
+
+- **Run the end-to-end tests in headed mode:**
+    ```sh
+    npx playwright test --headed
     ```
 
 - **Starts the interactive UI mode:**
